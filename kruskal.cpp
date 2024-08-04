@@ -20,6 +20,7 @@ vector<vector<int>> build_unidirectional(vector<vector<int>> input, int n){
     return gr;
 }
 
+//considering unit weight for each edge jump
 vector<vector<int>> kruskal(vector<vector<int>> gr, int n){
     vector<vector<int>> dist(n, vector<int> (n,INT_MAX));
     for(int i=0; i<n; i++) dist[i][i]=0;
