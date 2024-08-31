@@ -1,5 +1,6 @@
 #include<iostream>
 #include<algorithm>
+#include<vector>
 using namespace std;
 
 void bfs(vector<vector<int>> &adj[], vector<int> &vis, int n, int source, vector<int> &ls){
